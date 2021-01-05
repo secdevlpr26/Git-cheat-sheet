@@ -20,4 +20,5 @@
 | Push local commit to exisitng repo  | git push -u origin master  |
 | Push commits fast forwarded   | git push -f origin master  |
 | Fetch and merge commits from tracking branch | git pull  |
-| Fetches all branches from that remote  | git fetch origin  |
+| Uninstall git credentials  | git credential-manager uninstall  |
+| Install git credentials  | git credential-manager install  |
