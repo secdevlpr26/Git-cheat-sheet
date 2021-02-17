@@ -22,3 +22,7 @@
 | Fetch and merge commits from tracking branch | git pull  |
 | Uninstall git credentials  | git credential-manager uninstall  |
 | Install git credentials  | git credential-manager install  |
+| See what refs you have  | git show-ref  |
+| Change the ref path  | git push origin HEAD:main  |
+
+
