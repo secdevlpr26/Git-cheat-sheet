@@ -16,7 +16,12 @@
 | Set different url to origin alias  | git remote set-url origin [url]  |
 | Check origin url  | git remote -v  |
 | Check the available branches  | git branch -a  |
+| Merge a branch's history to a current branch  | git merge [branch]  |
 | Create new branch  | git branch [branchname]  |
+| Show the commits of branchA not in branchB  | git log branchB...branchA  |
+| Show commits that changed files across renames  | git log --follow [file]  |
+| Show all commit logs with indication of any paths that moved  | git log --stat -M  |
+| Switch to another branch and check it out in your directory  | git checkout  |
 | Push local commit to exisitng repo  | git push -u origin master  |
 | Push commits fast forwarded   | git push -f origin master  |
 | Fetch and merge commits from tracking branch | git pull  |
@@ -24,5 +29,15 @@
 | Install git credentials  | git credential-manager install  |
 | See what refs you have  | git show-ref  |
 | Change the ref path  | git push origin HEAD:main  |
+| Command line color  | git config --global color.ui auto  |
+| Unstage a file while retaining changes in working directory  | git reset [file]  |
+| Diff of what is changed but not staged  | git diff  |
+| Diff of what is staged but not yet committed  | git diff --staged |
+| Diff of what is in branchA that is not in branchB  | git diff branchB...branchA  |
+| Show any object in Git in human readable format  | git show [SHA]  |
+| Delete the file from project and stage removal for commit  | git rm [file]  |
+| Change the existing file path and stage move  | git mv [existing-path] [new-path]  |
+
+
 
 
