@@ -14,6 +14,7 @@
 | Show all commit history in the current branch  | git log  |
 | Add remote url to an alias origin  | git remote add origin [url]  |
 | Set different url to origin alias  | git remote set-url origin [url]  |
+| Fetch all branches from git remote | git fetch [alias] |
 | Check origin url  | git remote -v  |
 | Check the available branches  | git branch -a  |
 | Merge a branch's history to a current branch  | git merge [branch]  |
@@ -37,7 +38,9 @@
 | Show any object in Git in human readable format  | git show [SHA]  |
 | Delete the file from project and stage removal for commit  | git rm [file]  |
 | Change the existing file path and stage move  | git mv [existing-path] [new-path]  |
-
-
-
-
+| Apply commit of current branch ahead of specified one | git rebase [branch] |
+| Clear staging area, rewrite working tree from specified commit | git reset --hard [commit] |
+| Save modified and staged changes | git stash |
+| List stack-order of stashed file changes | git stashed list |
+| Write working from top of stash stack | git stash pop |
+| Discard the changes from top of stash stack | git stash drop |
